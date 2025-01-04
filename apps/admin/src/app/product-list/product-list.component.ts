@@ -1,10 +1,18 @@
 
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-
+import { MatIcon } from '@angular/material/icon';
+import { MatList,MatListItem } from '@angular/material/list';
 @Component({
+  imports: [
+    CommonModule,
+    MatIcon,
+    MatList,
+    MatListItem
+  ],
   selector: 'monorepo-angular-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.scss']
+  styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent implements OnInit {
 

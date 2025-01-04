@@ -1,1 +1,1 @@
-export * from './lib/core-navbar.module';
+export * from './lib/navbar/navbar.component';
