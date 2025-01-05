@@ -30,6 +30,9 @@
     "admin": {
       "tags": []
     },
+    "testapp": {
+      "tags": []
+    },
     "admin-e2e": {
       "tags": [],
       "implicitDependencies": ["admin"]
@@ -46,6 +49,11 @@
   },
   "targetDefaults": {
     "@angular-devkit/build-angular:browser": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["default", "^default"]
+    },
+    "@angular-devkit/build-angular:application": {
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["default", "^default"]
