@@ -11,6 +11,7 @@ import { NavbarComponent } from '@monorepo-angular/core/navbar';
   selector: 'monorepo-angular-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+  standalone: true
 })
 export class AppComponent {
   title = 'admin';

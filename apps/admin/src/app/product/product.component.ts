@@ -15,6 +15,7 @@ import {  MatCardContent,
   selector: 'monorepo-angular-product',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss'],
+  standalone: true
 })
 export class ProductComponent implements OnInit {
 

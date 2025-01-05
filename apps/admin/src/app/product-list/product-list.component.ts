@@ -13,6 +13,7 @@ import { MatList,MatListItem } from '@angular/material/list';
   selector: 'monorepo-angular-product-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.scss'],
+  standalone: true
 })
 export class ProductListComponent implements OnInit {
 
